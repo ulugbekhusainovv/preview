@@ -1,0 +1,127 @@
+.hero {
+  .container {
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    width: 350px;
+    padding: 24px 24px 32px 24px;
+    background-color: #15263f;
+    border-radius: 15px;
+    position: relative;
+    p {
+      margin-top: 16px;
+    }
+    @media screen and (max-width: 375px) {
+      width: 330px;
+      padding-left: 14px;
+    }
+  }
+  .hero__linnk {
+    position: relative;
+  }
+  .backgrond-cl {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #00fff8;
+    transition: 0.3s;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .hero-eay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .hero__linnk:hover .backgrond-cl {
+    opacity: 0.5;
+  }
+  .hero__linnk:hover .hero-eay {
+    opacity: 1;
+  }
+  .hero__img {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+
+  .hero__link {
+    font-size: 2.2rem;
+    line-height: 1.26;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .days {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    img {
+      width: 11px;
+      height: 18px;
+    }
+    h5 {
+      font-size: 1.6rem;
+      line-height: 1.06105;
+      font-weight: 600;
+      color: #00fff8;
+    }
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    img {
+      width: 13.33px;
+      height: 13.33px;
+    }
+  }
+  span {
+    font-size: 1.6rem;
+    line-height: 1.06105;
+    font-weight: 400;
+    color: #8bacd9;
+  }
+  .hero-hr {
+    background: #2e405a;
+    border: 1px solid #2e405a;
+    margin-bottom: 1.6rem;
+  }
+  .creation {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 16px;
+    }
+    span {
+      margin-right: 5px;
+    }
+    a {
+      font-size: 1.6rem;
+      line-height: 1.06105;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+  a {
+    transition: 0.2s ease;
+  }
+  a:hover {
+    color: #00fff8;
+  }
+}

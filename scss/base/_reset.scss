@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+img {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Outfit";
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4444;
+  color: #8bacd9;
+  background-color: #0d192c;
+  display: flex;
+  overflow-x: hidden;
+  justify-content: center;
+  height: 100%;
+}
